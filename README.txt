@@ -4,7 +4,7 @@ A responsive one-page promotional website for SheenSolution.
 
 ## Before publishing
 1. Open `index.html`.
-2. Replace `YOUR_EMAIL_HERE` with your real email.
+2. Replace `Syedjaan543@gmail.com` with your real email.
 3. If you want a WhatsApp button, replace the Contact button link with your WhatsApp link.
 
 ## Free hosting
