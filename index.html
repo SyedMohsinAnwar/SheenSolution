@@ -198,12 +198,83 @@ We design and deploy AI systems that manage customer support, sales, orders, and
 <p class="section-desc">A simple and structured 4-step implementation process.</p>
 </div>
 
+<style>
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.step {
+  text-align: center;
+}
+
+.step-number {
+  width: 48px;
+  height: 48px;
+  background: var(--primary, #16a34a);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 auto 16px;
+}
+
+.step h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.step p {
+  font-size: 14px;
+  color: var(--gray, #6b7280);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
 <div class="steps-grid">
-<div><div class="step-number"</div>1<Business Analysis</div>
-<div><div class="step-number">2<AI Development</div>
-<div><div class="step-number">3<Deployment</div>
-<div><div class="step-number">4<Scaling</div>
-</div
+
+  <div class="step">
+    <div class="step-number">1</div>
+    <h3>Business Analysis</h3>
+    <p>We understand your business, customers, workflow, and requirements.</p>
+  </div>
+
+  <div class="step">
+    <div class="step-number">2</div>
+    <h3>AI Development</h3>
+    <p>We build and configure the AI solution around your business needs.</p>
+  </div>
+
+  <div class="step">
+    <div class="step-number">3</div>
+    <h3>Deployment</h3>
+    <p>We integrate your AI solution and prepare it for customer interactions.</p>
+  </div>
+
+  <div class="step">
+    <div class="step-number">4</div>
+    <h3>Scaling</h3>
+    <p>As your business grows, your AI solution can grow with it.</p>
+  </div>
+
+</div>
 </section>
 
 <section id="contact">
